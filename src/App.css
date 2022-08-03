@@ -1,0 +1,64 @@
+.App {
+  font-family: sans-serif;
+  display: grid;
+  direction: rtl;
+  height: 45vh;
+}
+
+.AppWrapper {
+  text-align: center;
+  height: 90vh;
+}
+
+.GridWrapper {
+  width: 90%;
+  position: absolute;
+  left: 10px;
+}
+
+.buttonWrapper {
+  display: grid;
+  width: 20%;
+  height: 20%;
+  margin-right: 30px;
+  direction: ltr;
+}
+
+.button {
+  background-color: #72c3dc;
+  color: white;
+  width: 100%;
+  border: none;
+  height: 30px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 3px 5px -3px;
+}
+
+.text {
+  font-style: italic;
+}
+
+@media only screen and (max-width: 500px) {
+  .AppWrapper {
+    display: inline;
+    text-align: center;
+  }
+  .App {
+    font-family: sans-serif;
+    direction: ltr;
+  }
+  .buttonWrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .button {
+    width: 25%;
+  }
+  .GridWrapper {
+    width: 100%;
+    position: relative;
+    left: 0px;
+  }
+}
