@@ -35,9 +35,9 @@ export default function App() {
         </div>
         <div className="GridWrapper">
           <Grid nums={nums} />
+          <div className="text">Shuffle and sort by {myName}</div>
         </div>
       </div>
-      <div className="text">Suffle and sort by {myName}</div>
     </div>
   );
 }
