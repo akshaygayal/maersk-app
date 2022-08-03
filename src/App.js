@@ -24,6 +24,7 @@ export default function App() {
 
   return (
     <div className="AppWrapper">
+      <div className="title">Shuffle and Sort</div>
       <div className="App">
         <div className="buttonWrapper">
           <button className="button" onClick={shuffleHandler}>
@@ -35,7 +36,7 @@ export default function App() {
         </div>
         <div className="GridWrapper">
           <Grid nums={nums} />
-          <div className="text">Shuffle and sort by {myName}</div>
+          <div className="footer">Shuffle and sort by {myName}</div>
         </div>
       </div>
     </div>

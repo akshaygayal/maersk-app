@@ -8,6 +8,7 @@
 .AppWrapper {
   text-align: center;
   height: 90vh;
+  background-color: #efefef;
 }
 
 .GridWrapper {
@@ -35,14 +36,20 @@
   box-shadow: 0 3px 5px -3px;
 }
 
-.text {
+.title {
+  padding: 10px 0px;
+}
+
+.footer {
   font-style: italic;
+  padding: 10px 0px;
 }
 
 @media only screen and (max-width: 500px) {
   .AppWrapper {
     display: inline;
     text-align: center;
+    background-color: none;
   }
   .App {
     font-family: sans-serif;
@@ -60,5 +67,10 @@
     width: 100%;
     position: relative;
     left: 0px;
+  }
+  .title {
+    background-color: #333333;
+    color: white;
+    height: 20px;
   }
 }
